@@ -11,3 +11,8 @@ def ocr(imagen):
     else:
         #print("No ha detectado nada")
         return ''
+
+def unificar_texto(palabras_text):
+    palabra_unida = ' '.join(palabras_text)
+    print(palabra_unida)
+    return palabra_unida
