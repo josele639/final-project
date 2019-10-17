@@ -1,4 +1,5 @@
 import numpy as np
+import operator 
 
 def get_orden(lista_cord):
     total_centro = []
@@ -44,9 +45,7 @@ def get_orden(lista_cord):
         gas.append(que_rango)
         
   
-    #Ordenando primero por la x y luego por la y, ya tenemos el orden correcto.
-    from operator import itemgetter
-    import operator 
+   
     #gas = sorted(gas, key=operator.itemgetter(1, 2))
     gas.sort(key=lambda x: x[0][2])
     gas.sort(key=lambda x: x[1]) 

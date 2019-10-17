@@ -3,7 +3,7 @@
 import pytesseract
 
 def ocr(imagen):
-    config = ("-l eng --oem 1 --psm 7")
+    config = ("-l eng+deu+fra+spa --oem 1 --psm 7")
     text = pytesseract.image_to_string(imagen, config=config)
     if text:
         #print(text)
