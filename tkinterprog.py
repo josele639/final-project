@@ -68,7 +68,6 @@ class Aplicacion():
         global frase
         global leng
         frase = get_words.image_to_text(pic,19,0.01)
-        #aqui meter la funcion de traduccion y que sus argumentos sean los gets de las casillas de arriba.
 
         
         if self.boxtraductor.get() == 'Español':
