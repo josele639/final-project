@@ -1,4 +1,4 @@
-# final-project
+# TuText
 
 El objetivo del proyecto es crear un programa que sea capaz de traducir el texto de una fotografia.
 
